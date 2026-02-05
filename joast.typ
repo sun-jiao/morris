@@ -14,6 +14,7 @@
 // ============================================================
 #let DEFAULT_COLOR = rgb(33, 63, 144) // default color 
 #let structure-color-state = state("structure_color", DEFAULT_COLOR)
+#let link-color = rgb(0, 0, 255)
 
 #let joast(
   // Metadata
@@ -189,9 +190,7 @@
   
   // ============================================================
   // Link and reference styling
-  // ============================================================
-  let link-color = rgb(0, 0, 255)
-  
+  // ============================================================  
   show link: it => text(fill: link-color)[#underline(it)]
   show ref: it => text(fill: link-color)[#it]
   
@@ -296,9 +295,7 @@
         weight: "semibold",
         fill: structure-color,
       )[
-        #upper(manuscript.replace("-", " "))
-
-        #if layout == "preprint" [
+        #upper(manuscript.replace("-", " ")) #if layout == "preprint" [
           (_Preprint_)
         ]
       ]
@@ -498,6 +495,21 @@
 #let funding(body) = paragraph("Funding statement")[#body]
 
 #let credit(body) = paragraph("Author contributions")[#body]
+
+// ============================================================
+// citation
+// ============================================================
+
+#let posscite(label) = {
+    set text(fill: link-color)
+    show regex("\s\("): "’s ("
+    cite(label, form: "prose")
+}
+
+#let textcite(label) = {
+    set text(fill: link-color)
+    cite(label, form: "prose")
+}
 
 // ============================================================
 // Styled table with alternating row colors
