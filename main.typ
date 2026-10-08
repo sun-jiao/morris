@@ -1,6 +1,6 @@
-#import "joast.typ": *
+#import "cupst.typ": *
 
-#show: joast.with(
+#show: cupst.with(
   title: [A Re-examination of the History of Morris Childs and Operation SOLO],
   short-title: [Revisiting Morris Childs and Operation SOLO],
   
@@ -18,14 +18,14 @@
   
   abstract: [
     The narrative of "Operation SOLO", the Federal Bureau of Investigation's (FBI) penetration
-     of the Communist Party USA (CPUSA) and the Soviet Union via Morris and Jack Childs, 
-     has long stood as one of the most successful operation in Cold War.
-     John Barron's Operation Solo: The FBI's Man in the Kremlin (1997) presents a morally unambiguous tale.
-     In this version, Morris Childs is depicted as a "disillusioned idealist," 
-     a high-ranking functionary who was ruthlessly discarded by the Communist Party he served when he fell ill,
-     being "rescued" by a benevolent FBI that provided him with life-saving medical care at the Mayo Clinic.
-     This narrative posits that Morris's turn was driven by a profound ideological awakening
-     and a reaction to the callousness of his former comrades.
+    of the Communist Party USA (CPUSA) and the Soviet Union via Morris and Jack Childs, 
+    has long stood as one of the most successful operation in Cold War.
+    John Barron's Operation Solo: The FBI's Man in the Kremlin (1997) presents a morally unambiguous tale.
+    In this version, Morris Childs is depicted as a "disillusioned idealist," 
+    a high-ranking functionary who was ruthlessly discarded by the Communist Party he served when he fell ill,
+    being "rescued" by a benevolent FBI that provided him with life-saving medical care at the Mayo Clinic.
+    This narrative posits that Morris's turn was driven by a profound ideological awakening
+    and a reaction to the callousness of his former comrades.
     
     However, a re-examination of declassified FBI files, suggests a far more complex, 
     transactional, and morally flawed reality. This analysis challenges the prevailing narrative. 
@@ -41,6 +41,7 @@
   manuscript: "article",  // article, rescience, data, software, editorial, proceedings, poster
   layout: "preprint",     // preprint, publish
   journal: "Preprint",
+  paper-size: "medium",
   year: 2026,
   volume: 0,
   doi: "10.1000/abcd.2026.xxxx",
@@ -52,10 +53,11 @@
   published: "April 30, 2024",
   editor: "Dr. Editor Name",
   reviewers: "Anonymous",
-  
+    
   // Display options
-  show-line-numbers: true,
+  show-line-numbers: false,
   section-numbering: true,
+  structure-color: rgb(33, 63, 144),
 )
 
 = Disillusioned Idealist or Strategic Pragmatist? <disillusioned-idealist-or-strategic-pragmatist>
@@ -474,26 +476,20 @@ On December 16, Morris spoke with Dr. Pearlman, attempting to guide him to break
 ]
 
 Following this, the trail in the files goes cold. 
-The currently released Morris files end at Volume 5 on March 29, 1954, and then skip directly to Volume 20 in 1958 @FBI2016[orig, 1952-1962]. 
-However, the aformentioned FBI file on "Communist Influence in Racial Matters" reveals the outcome. 
+The currently released Morris files end at Volume 5 on March 29, 1954, and then skip directly to Volume 20 in 1958 @FBI2016[orig, 1952-1962].
+Dr. Pearlman did never appear in the FBI files again. 
+However, the aformentioned FBI file on "Communist Influence in Racial Matters" tell us the ending of this story. 
 In June 1954, Dr. Pearlman received an "ultimatum" from the CPUSA: 
 he must "get back in the open as a Communist member" or face expulsion. 
 By October 1955, Pearlman was no longer a Party member. 
-
-It is highly likely that the attempt to turn Dr. Pearlman failed, 
-so Morris had to manipulate the Party organization to force him out. 
 Given Morris's restored influence in the Party by 1954, 
-it is highly probable that Morris played an crucial role behind this ultimatum. 
+it is a reasonable hypothesise that Morris played a crucial role behind this ultimatum. 
 Because Dr. Pearlman knew too much about Morris: the suspicious points of Morris's treatment at Mayo, 
 Morris offering him racially discriminatory advice inconsistent with Party aims,
- and Morris guiding him to question Party ideology during conversations, followed by the FBI attempting to turn him.
+and Morris guiding him to question Party ideology during conversations, followed by the FBI attempting to turn him.
+However, this is only a hypothesis, and the exact details of the relationship between Morris and Dr. Pearlman remain unclear.
 
-Although the files are not yet disclassified, the only logical fill-in to connect "Morris wanted to resolve this danger" 
-and "the danger was resolved" is that Morris resolved it. Since soft measures (talks, turning) failed, 
-and the result (withdrawal from the Party) occurred, and the process was covered up by the FBI, 
-this is the most reasonable explanation.
-
-Additionally, the book #emph[Operation SOLO] makes absolutely no mention of Dr. Pearlman, 
+Additionally, the book _Operation SOLO_ makes absolutely no mention of Dr. Pearlman, 
 which could also be evidence that he rejected the FBI. This book was completed by Barron in cooperation with the FBI. 
 Its fundamental stance is to praise the operation, and it contains confirmed deliberate beautification 
 in some aspects (such as Morris's relationship with the FBI). 
@@ -511,17 +507,14 @@ or simply by the Bureau's obsessive monitoring of anyone with a communist backgr
 = Conclusion <conclusion>
 
 This article re-evaluates the traditional narrative regarding Morris Childs and Operation SOLO 
-through a close reading of historical documents, primarily presenting five rebuttals. 
-Among them, *1)* "the relationship between Morris and the FBI was not as good as depicted," 
-*2)* "Morris's narrative regarding his leaving the Party was inaccurate," and 
-*3)* "The CPUSA did not abandon Morris during his illness" are confirmed. 
-"The CPUSA donated money to Morris" and "Morris purged Dr. Pearlman" are inferences based on historical evidence. 
-They cannot be regarded as definitive historical conclusions without new declassified archives (such as the resurfacing of the 1954-1958 files). 
-Even if his purging Dr. Pearlman is speculative and uncertain, his provocation of the relationship between the doctor and African American members of CPUSA, 
-as well as his helping the FBI monitor the doctor, his wife, his wife's family (the Feldmans), 
-and his son Michael are facts. 
+through a close reading of historical documents, primarily presenting four rebuttals. 
+*1)* The relationship between Morris and the FBI was not as good as officially depicted, 
+*2)* Morris's narrative regarding his leaving the Party was inaccurate, 
+*3)* The CPUSA did not abandon Morris during his illness, and, 
+*4)* He tried to undermine the relationship between a doctor member and African American members of CPUSA, 
+as well as he helped the FBI monitor the doctor, his wife, his wife's family (the Feldmans), 
+and his son Michael, even if the doctor saved his life. 
 These analyses allow us to see that when Morris Childs is stripped of the halos of "Cold War Hero" 
 and "FBI Super Ace" and returned to the dimension of a concrete "human," his actions are chilling on a moral level.
-
 
 #bibliography("references.bib", style: "apa")
