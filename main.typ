@@ -1,4 +1,5 @@
-#import "cupst.typ": *
+#import "@preview/cupst:0.1.0": *
+#import "@preview/citesugar:0.2.0": citesugar
 
 #show: cupst.with(
   title: [A Re-examination of the History of Morris Childs and Operation SOLO],
@@ -17,22 +18,9 @@
   ),
   
   abstract: [
-    The narrative of "Operation SOLO", the Federal Bureau of Investigation's (FBI) penetration
-    of the Communist Party USA (CPUSA) and the Soviet Union via Morris and Jack Childs, 
-    has long stood as one of the most successful operation in Cold War.
-    John Barron's Operation Solo: The FBI's Man in the Kremlin (1997) presents a morally unambiguous tale.
-    In this version, Morris Childs is depicted as a "disillusioned idealist," 
-    a high-ranking functionary who was ruthlessly discarded by the Communist Party he served when he fell ill,
-    being "rescued" by a benevolent FBI that provided him with life-saving medical care at the Mayo Clinic.
-    This narrative posits that Morris's turn was driven by a profound ideological awakening
-    and a reaction to the callousness of his former comrades.
+    "Operation SOLO" is the Federal Bureau of Investigation's (FBI) infiltration of the Communist Party USA (CPUSA) and the Soviet Union through the brothers Morris and Jack Childs. It has long been regarded as one of the most successful operations of the Cold War. In book _Operation SOLO: The FBI's Man in the Kremlin_ (1997), John Barron presents a narrative with clear moral boundaries: Morris Childs is depicted as a high-ranking CPUSA official who was abandoned by the party after falling ill, only to be "rescued" by an FBI agent. According to this account, Morris's decision to switch sides was driven by an ideological awakening and the heartless behaviour of his former comrades.
     
-    However, a re-examination of declassified FBI files, suggests a far more complex, 
-    transactional, and morally flawed reality. This analysis challenges the prevailing narrative. 
-    This paper argues that the relationship between Morris and the FBI was transactional. 
-    Furthermore, it posits that the CPUSA did not "abandon" Morris during his illness as claimed. 
-    Finally, it highlights the tragic figure of Dr. Solomon Pearlman, a physician who saved Morris's life 
-    but possibly later became his target to eliminate as a security risk.
+    Declassified FBI files, however, reveal a far more complex, transactional, and morally compromised reality. This article argues that the relationship between Morris and the FBI was essentially a business arrangement. Furthermore, the CPUSA did not "abandon" him during his illness, as the aforementioned narrative claims. The article also examines the experience of Dr. Solomon Pearlman. He saved Morris's life, and was betrayed by him in the end. The archival record suggests that it was Machiavellian calculation and exploitation.
   ],
   
   keywords: ("cold war", "CPUSA", "FBI", "Morris Childs", "Operation SOLO"),
@@ -60,23 +48,43 @@
   structure-color: rgb(33, 63, 144),
 )
 
-= Disillusioned Idealist or Strategic Pragmatist? <disillusioned-idealist-or-strategic-pragmatist>
+#show cite: citesugar
+
+#show quote: set block(spacing: 1em)
+#show quote: it => {
+  block(
+    fill: luma(245),
+    stroke: (left: 3pt + rgb("#3b82f6")),
+    inset: (x: 1em, y: 0.8em),
+    radius: (right: 8pt),
+    width: 100%,
+    {
+      set text()
+      it.body
+
+      if it.attribution != none {
+        align(right, text(style: "normal", size: 0.9em, fill: luma(100))[—— #it.attribution])
+      }
+    }
+  )
+}
+= Disillusioned idealist or strategic pragmatist? <disillusioned-idealist-or-strategic-pragmatist>
 
 The popular narrative, particularly in John Barron's _Operation Solo: The FBI's Man in the Kremlin_ @Barron1997, 
-appears to over-glamorize the relationship between Morris Childs and the Federal Bureau of Investigation (FBI). 
-However, evidence suggests that Morris exaggerated his value and attempted to 
-pretend to be not interest in financial compensation. 
+glamorises the relationship between Morris Childs and the Federal Bureau of Investigation (FBI). 
+However, recently declassified evidence suggests that Morris exaggerated his value and tried to 
+pretend he was uninterested in financial compensation. 
 Conversely, the FBI did not cover Morris's medical expenses unconditionally. 
-Hoover explicitly instructed Agent Freyman not to promise Morris immunity from testifying, 
-and medical resources were contingent upon Morris proving his worth.
-Furthermore, the FBI did not meet Morris's initial demands. 
-Morris refused to provide the original health reports, 
+J. Edgar Hoover explicitly instructed Agent Freyman not to promise Morris immunity from testifying, 
+and Morris must prove his worth to get medical resources.
+The FBI also did not meet Morris's initial demands. 
+When Morris refused to provide the original health reports, 
 the FBI dispatched agents directly to the Mayo Clinic to verify his condition.
 
-Morris does not fit the narrative of a "disillusioned idealist," 
+Morris was also not a "disillusioned former idealist communist," 
 which appears to be part of his self-promotion to the FBI.
 His expulsion from the _Daily Worker_ was the result of his support for Henry Wallace's proposal regarding 
-"peaceful coexistence between Soviet and USA," compounded by internal high-level political and factional struggles.
+"peaceful coexistence between Soviet and USA," compounded by internal high-level political and factional conflicts.
 
 From the beginning, Morris declared that he would only discuss 
 matters of "high political value" @FBI2016[orig. 1952, vol 1, p. 5]:
@@ -135,7 +143,7 @@ a pioneer in cardiac surgery known for performing the first successful defibrill
   BUT HE HAS NOT SEEN A DR. BECK OF CLEVELAND WHO IS CONSIDERED THE BEST IN THE FIELD FOR CHILDS' AILMENT.
 ]
 
-Did the FBI fulfill this request? The archives indicate otherwise @FBI2016[orig. 1952, vol 2, p. 25].
+The archives show that the FBI did not fulfill this request @FBI2016[orig. 1952, vol 2, p. 25].
 
 #quote(
   block: true,
@@ -154,90 +162,78 @@ Did the FBI fulfill this request? The archives indicate otherwise @FBI2016[orig.
   to interview such person and obtain a full and detailed confidential report
   for the information of the Bureau and the Chicago Division.
 ]
+ 
+The "team of outstanding cardiologists" described in @Barron1997[ps:] narrative was clearly an exaggeration.
+Declassified files show that Morris's physician was not Dr. Beck, as Morris originally requested, but Dr. C. H. Watkins. 
+He was a regular staff member working with the Mayo Clinic since 1929, accessible to any paying patient @PostBulletin1997.
 
-While Dr. Beck was a cardiac surgeon, the treatment Morris ultimately received was non-surgical. 
-Furthermore, the "team of outstanding cardiologists" described in #posscite(<Barron1997>) narrative appears to be an exaggeration.
-The documents show that Morris's physician is Dr. C. H. Watkins, who was a specialist in internal medicine,
- had been with the Mayo Clinic since 1929 @PostBulletin1997.
-  He was a regular staff member accessible to any paying patient.
-
-Ironically, because Morris refused to provide written reports to avoid sharing them with the CPUSA doctor
-(who will be discussed in detail), 
-the FBI did not trust his oral report and sought independent verification from the clinic. 
+It also demonstrated their bad relationship that the FBI did not trust his oral report and sought independent verification from the clinic. 
 The FBI memo's request to find "confidential contacts" at Mayo @FBI2016[orig. 1952, vol 2, p. 25]
-further indicates that the medical team was not organized by the FBI.
-Otherwise, medical records would have been directly available to them.
+further indicates that the medical team was not organized by the FBI;
+otherwise, medical records would have been directly available to them.
 
-= Morris's Expulsion from the _Daily Worker_<morris-expulsion>
+= Morris's expulsion from the _Daily Worker_ <morris-expulsion>
 
-In his first meeting with the FBI, Morris firstly declared that the FBI's existing informants 
-and Communist experts were inferior to himself, and that their information would embarrass the FBI in the future. 
+In his first meeting with the FBI, Morris first declared that the FBI's existing informants 
+and Communist experts were inferior to himself, and that their information would do harm to the FBI in the future. 
 He then recounted the ideological struggles within the CPUSA, his own dismissal from the _Daily Worker_, 
 and a comprehensive evaluation of the CPUSA leadership @FBI2016[orig. 1952, vol 1, p. 20-32].
 
-During World War II, Earl Browder promoted the "Browderism," emphasizing "class collaboration" 
-rather than "class struggle," advocating that the CPUSA should integrate into the American mainstream political system
-and cooperate with liberals to fight fascism. However, with the end of the war and the onset of the Cold War, 
-both the US and international situations had been different. 
+During World War II, Earl Browder promoted "Browderism," emphasizing "class collaboration" 
+over "class struggle" and advocating that the CPUSA integrate into the American mainstream political system
+and cooperate with liberals to fight fascism. 
+With the end of the World War II and the onset of the Cold War, both the US and international situations changed. 
 In 1945, French Communist Party leader Jacques Duclos published the famous "Duclos Letter,"
-severely criticizing Browder's stance.
+severely criticizing Browder's stance @Ryan2000Browder.
 
 Regarding his expulsion from the _Daily Worker_, 
 Morris presented himself as a victim of the 1946 internal conflict between the William Foster and Eugene Dennis factions.
-He claimed he was was purged by Foster because he supported Henry Wallace, 
+He claimed he was purged by Foster because he supported Henry Wallace, 
 who proposed an arrangement about American non-interference in Eastern Europe in exchange for 
 Soviet non-interference in the West. 
-Morris presented himself as a visionary and strategic tragic hero who was purged.
+Morris cast himself as a visionary, strategic tragic hero who was purged.
 
-However, #textcite(<Gates1958>) and #textcite(<Dodd1954>) suggest a more complex picture. 
-John Gates, the Spanish Civil War veteran who succeeded Morris as editor-in-chief of the _Daily Worker_, 
-stated that Dennis, in order to ease the conflict with Foster, decided to sacrifice Morris to buy Party unity. 
-In Gates's narrative, Morris was not only a loser in the line struggle but also a victim of 
-high-level political trading @Gates1958. 
+However, @Gates1958[p:] and @Dodd1954[p:] offered different accounts. 
+John Gates, the Spanish Civil War soldier who succeeded Morris as editor-in-chief of the _Daily Worker_, 
+stated that Dennis decided to sacrifice Morris to ease his conflict with Foster and buy Party unity. 
+In Gates's account, Morris lost the struggle and was traded away in high-level political bargaining @Gates1958. 
 Bella Dodd, another high-ranking member of the Party's National Committee at the time, 
 offered a third perspective. 
-Bella believed that the direct reason for Morris's downfall was his inappropriate words and 
+Dodd believed that the direct reason for Morris's downfall was his inappropriate words and 
 deeds during his visit to Moscow and Paris in 1947, 
 which "offended the Party organizations in Moscow or New York" @Dodd1954.
 
 Notably, the timeline Morris provided (expulsion in Dec 1946) contradicts historical archives 
 showing him as editor until at least May 1947 @DailyWorker1947. 
-This difference is irrefutable evidence that Morris's narrative was self-aggrandizing. 
-Conversely, Morris's dismissal occurred on June 27, 1947 in both narratives of #textcite(<Gates1958>) and #textcite(<Dodd1954>).
+This discrepancy is clear evidence that Morris's narrative was not accurate. 
+In both @Gates1958[p:] and @Dodd1954[p:], Morris's dismissal occurred on June 27, 1947.
 
-Furthermore, when we deeply analyze his so-called "correct line" -- 
-supporting Wallace's geopolitical proposition of "US-Soviet division of the world" -- 
-his entire narrative of "betrayal due to shattered ideals" becomes suspicious. 
-Morris's support for Wallace's policy was essentially a realist geopolitical stance 
-rather than a purely communist internationalist one. 
+A closer look at his so-called "idealism," supporting Wallace's geopolitical proposition of a "US-Soviet division of the world," 
+also makes his narrative of "betrayal due to shattered ideals" less convincing.
+Morris's support for Wallace's policy reflected a realpolitik stance 
+more than a purely communist internationalist one. 
 By prioritizing Soviet geopolitical interests over revolutionary goals, 
 his position naturally invited criticism from the Foster faction. 
-In contrast, if we assume that he also considered the political interests of the CPUSA --
-then this is classical Browderism: cooperate with domestic liberal candidates and pursue a parliamentary path. 
-Therefore, the Foster faction's attack on him as a "Browderite" was not an unfounded pretext, 
-but to some extent, an accurate description of his views.
+If we assume that he also considered the political interests of the CPUSA, 
+his stance amounted to classical Browderism: cooperating with domestic liberal candidates and pursuing a parliamentary path. 
+The Foster faction's attack on him as a "Browderite" therefore reflected his views accurately.
 
-It is posited that his own narrative was a political narrative to present himself as 
-a "noble" idealist who "could not be bought with money," 
-enhancing his value and bargaining power with the FBI.
+His account was a political narrative built to present himself as 
+a "noble" idealist who "could not be bought with money" and to raise his value to bargain with the FBI.
 
-= Morris's Relationship with the CPUSA after His Expulsion <relationship-with-cpusa>
+= Morris's relationship with the CPUSA after his expulsion <relationship-with-cpusa>
 
-To explain how the destitute Morris Childs could afford treatment at the prestigious Mayo Clinic -- 
-a question that would inevitably arise among his Party associates -- 
+To explain how the destitute Morris Childs could afford treatment at the prestigious Mayo Clinic, 
+a question that would inevitably arise among his Party associates, 
 the Childs brothers and the FBI devised a cover story: a fundraising campaign among Morris's old Party comrades.
 
-According to #posscite(<Barron1997>) account, Jack Childs cynically predicted the outcome of this fundraising effort: 
+According to @Barron1997[ps:] account, Jack Childs cynically predicted the outcome of this fundraising effort: 
 "I'll go to people all over town... asking our old comrades for donations... 
 Almost none of those assholes will contribute a dime. But no one will ever say he didn't contribute". 
-This quote serves a specific narrative function in the official history: 
-it reinforces the moral bankruptcy of the CPUSA, 
-portraying the comrades as callous and indifferent to the suffering of their own. 
+In the official history, this quote reinforces the claim of the CPUSA's moral flaw 
+and depicts the CPUSA as indifferent to the suffering of their comrade. 
 
-However, the subsequent events and the internal logic of the operation suggest this prediction 
-was either wrong or a deliberate fabrication to enhance the FBI's savior image. 
-When Morris re-established contact with the Party underground, he explicitly thanked Philip Bart, 
-a high-ranking Party official, for the donations that made his treatment possible @Barron1997.
+However, when Morris re-established contact with the Party underground, he explicitly thanked Philip Bart, a high-ranking CPUSA official, for the donations that made his treatment possible @Barron1997.
 
 #quote(
   block: true,
@@ -257,24 +253,23 @@ a high-ranking Party official, for the donations that made his treatment possibl
 ]
 
 If the CPUSA members had truly contributed nothing, 
-Morris's expression of gratitude to Philip Bart would have been a devastating error. 
-Bart and other leaders would have known that no significant money had been collected. 
-If Jack had collected zero dollars, thanking the Party for the funds would have instantly exposed the lie 
+Morris's gratitude would have been a devastating error. 
+Bart and other leaders definitely knew how much money had been donated. 
+If Jack had collected zero dollars, thanking the Party for the donation would have exposed the lie 
 and raised the dangerous question: _If we didn't pay for Morris's Mayo treatment, who did?_
 
-It is highly probable that the fundraising campaign did yield contributions -- 
-perhaps not enough to cover the exorbitant Mayo bill, but enough to _make the story credible_. 
-The exact amount is unknown, but it certainly wasn't zero, nor could it be an absurdly small figure like a few dozen dollars.
+The donated money perhaps was not enough to cover the Mayo bill, but must be enough to make the story credible. 
+The exact amount is unknown, but it certainly could not be zero, nor could it be an absurdly small number like a few dozen dollars.
 
-Additionally, the Party did maintain contact with Morris during his illness, 
+It is also notable that the Party maintained contact with Morris during his illness, 
 primarily through the visits of the Party doctor, Solomon Pearlman, and the financial secretary, Leon Katzen. 
-The very existence of these visits disproves the idea that Morris was left to die in isolation. 
+The existence of these visits disproves the idea that Morris was left to die in isolation. 
 Katzen encouraged Morris to go to the Mayo Clinic for treatment, hoped he would get well soon, 
 and mentioned that some Party members in New York were willing to help. 
 In this meeting, Leon "asked for advice on many organizational and political issues" from Morris, 
 indicating that Morris's prestige and influence within the Party still existed @FBI2016[orig, 1952, vol 1, p. 62].
 
-During the period Morris "left the Party," Dr. Pearlman, continued to visit him, 
+During the period Morris "left the Party," Dr. Pearlman continued to visit him 
 and saved his life from a myocardial infarction in 1950 @FBI2016[orig, 1959, vol 21, p. 8]:
 
 #quote(
@@ -287,16 +282,15 @@ and saved his life from a myocardial infarction in 1950 @FBI2016[orig, 1959, vol
   In 1950 he had a coronary infraction; treated by Dr. S. PEARLMAN, 30 North Michigan Avenue, Chicago.
 ]
 
-The following information indicates that the relationship maintained was an organizational one, 
-not a simple doctor-patient relationship. 
+The following information shows that their relationship was organizational as well as medical. 
 FBI files note that they exchanged "District organizational information" 
 and that expanding Morris's contacts might be seen as a "violation of security regulations," 
-implying their current contact foes not violate it. 
+implying their current contact did not violate those rules. 
 In both documents, Dr. Pearlman is given the title "Communist Party doctor in the Chicago area," 
 indicating that Pearlman likely undertook medical work within the Party, 
-especially helping those wanted members who could not go to hospitals. 
-He could not be Morris's doctor who merely happened to be a Party member, because in this case, 
-sharing sensitive information about the Party's underground leadership obviously violates security regulations.
+especially helping wanted members who could not go to public hospitals. 
+He could not simply be a personal doctor who happened to be a Party member, because in that case 
+sharing sensitive information would violate the Party's security regulations. 
 
 #quote(
   block: true,
@@ -318,40 +312,49 @@ sharing sensitive information about the Party's underground leadership obviously
 ]
 
 This confirms that Dr. Pearlman was sent by the Party to treat Morris and maintain organizational contact,
-and CPUSA did not medically abondon Morris after the political expulsion.
+and that the CPUSA did not medically abandon Morris after his political expulsion.
 
-= Solomon Pearlman: A Microhistory <microhistory>
+= Solomon Pearlman: a microhistory <microhistory>
 
-The most disturbing aspect of the Operation SOLO files is Morris's treatment of Dr. Solomon Pearlman, 
+The most disturbing aspect of the Operation SOLO files is Morris's attitudes and actions on Dr. Solomon Pearlman, 
 which is almost entirely absent from the official histories @Barron1997. 
-While the narrative focuses on the Childs brothers' heroism, 
-the FBI files reveal the systematic manipulation and destruction of the physician who saved Morris's life. 
+While Barron's narrative focuses on the Childs brothers' heroism, 
+the FBI files document the systematic manipulation and destruction of the physician who saved Morris's life. 
 
-In the search of his identity, I noticed an article on geriatric diseases published in _The University of Chicago Magazine_ 
-by a doctor named Solomon L. Pearlman @Pearlman1953, 
-discussing treatments for heart disease, blood diseases, and stomach ailments in the elderly. 
-Dr. Solomon L. Pearlman was a respected internist in Chicago, a graduate of the University of Chicago (1932), 
-and a staff physician at Michael Reese Hospital, one of the city's premier medical institutions. 
-#textcite(<Mack1954>) also mentioned the work of _this_ Dr. Pearlman and 
-explicitly referred to him as a "specialist in internal medicine." 
-This indicates that _this_ Dr. Pearlman was an expert in heart disease treatment, 
-which is consistent with the CPUSA Dr. Pearlman, who treated Morris's heart condition. 
-The article was published in 1953, when the CPUSA Dr. Pearlman was also active in Chicago. 
-As a physician worked in the Michael Reese Hospital, 
-a large research and teaching hospital and the oldest and largest in Chicago, 
-his social status is also consistent with CPUSA Dr. Pearlman, who had a clinic at 30 North Michigan Avenue.
+// In searching for his identity, I noticed an article on geriatric diseases published in _The University of Chicago Magazine_ 
+// by a doctor named Solomon L. Pearlman @Pearlman1953, 
+// discussing treatments for heart disease, blood diseases, and stomach ailments in the elderly. 
+// Dr. Solomon L. Pearlman was a respected internist in Chicago, a graduate of the University of Chicago (1932), 
+// and a staff physician at Michael Reese Hospital, one of the city's premier medical institutions. 
+// @Mack1954[p:] also mentioned the work of _this_ Dr. Pearlman and 
+// explicitly referred to him as a "specialist in internal medicine." 
+// This indicates that _this_ Dr. Pearlman was an expert in heart disease treatment, 
+// which is consistent with the CPUSA Dr. Pearlman, who treated Morris's heart condition. 
+// The article was published in 1953, when the CPUSA Dr. Pearlman was also active in Chicago. 
+// As a physician at Michael Reese Hospital, 
+// a large research and teaching hospital and the oldest and largest in Chicago, 
+// his social status is also consistent with CPUSA Dr. Pearlman, who had a clinic at 30 North Michigan Avenue.
 
-A more decisive evidence is a document newly declassified by the FBI in 2024, _Communist Influence In Racial Matters_, 
-which records the FBI's surveillance of their child, Michael D. Pearlman, in 1965. 
-It mentions the "Jackson Police Department." In the context of "Racial Matters," 
-this immediately brings to mind the Freedom Riders and the broader Civil Rights Movement, 
-which Michael D. Pearlman likely participated in. 
-This document confirms that the wife of the CPUSA Dr. Pearlman was named Margaret, 
-exactly the same as the Dr. Pearlman from the University of Chicago @FBI2024[orig 1965].
+// More decisive evidence comes from 
+A document newly declassified by the FBI in 2024, _Communist Influence In Racial Matters_, 
+records the FBI's monitoring of their child, Michael D. Pearlman, in 1965. 
+It mentions the "Jackson Police Department", clearly referring to the Freedom Riders Movement, 
+which Michael D. Pearlman likely participated in. @FBI2024[orig 1965] 
+// This document confirms that the wife of the CPUSA Dr. Pearlman was named Margaret, 
+// the same as the Dr. Pearlman from the University of Chicago.
 
 #quote(
   block: true,
 )[
+  PEARLMAN, MICHAEL D.
+
+  The following descpiptive data was obtained from the Jackson Police Department:
+  - Race: While 
+  - Sex: Male
+  - Date: of Birth: ■■■■
+  - Residence: ■■■■, Chicago, Illinois
+  - Parents: SOLOMON and MARGARET PEARLMAN
+
   JN T-24 advised on February 5, 1954, that Dr. SOLOMON PEARLMAN was of that date a Communist Party doctor. 
   Informant advised on February 11, 1954, that although he could not state of his own knowledge that 
   Dr. SOLOMON PEARLMAN was of that date a member of the Communist Party, it was his, the informant's opinion,
@@ -367,25 +370,26 @@ exactly the same as the Dr. Pearlman from the University of Chicago @FBI2024[ori
   but related that she is undoubtedly influenced by the activities of her husband.
 ]
 
-Based on the identical names, identical partner names, both living in Chicago in 1953-1954, 
-both specializing in internal medicine with experience in heart disease, and similar social status, 
-we can infer with high confidence that they are the same person. 
-Based on the aforementioned information, he was likely one of the best doctors serving the CPUSA in Chicago at the time.
+// Based on the identical names, identical partner names, both living in Chicago in 1953-1954, 
+// both specializing in internal medicine with experience in heart disease, and similar social status, 
+// we can infer with high confidence that they are the same person. 
+// Based on the aforementioned information, he was likely one of the best doctors serving the CPUSA in Chicago at the time.
 
+Having a clinic at 30 North Michigan Avenue (Michigan Boulevard Building) indicating that Dr. Pearlman was a respected physician in Chicago. 
 However, such an important Party member received an "ultimatum" from the CPUSA at the end of 1954, 
 demanding he reveal his Party membership. Under the high pressure of McCarthyism, 
-"publicly revealing Communist Party membership" was tantamount to placing one's career, 
-social status, and even personal safety at enormous risk. 
+"publicly revealing Communist Party membership" was equivalent to placing one's career, 
+social status, and even personal safety at vast risk. 
 Consequently, Dr. Pearlman rejected the CPUSA's demand and left the Party in 1955.
 
 Intellectuals like Dr. Pearlman, who possessed professional status and social prestige, 
-were important "soft power" forces for the CPUSA in society. 
+were critical members for the CPUSA in society. 
 Their role as underground members was far greater than as public members. 
 Forcing them to make an impossible choice between personal life and organizational loyalty 
-would only drive these valuable talents away. 
-Moreover, such internal purges intensified suspicion and fear within the Party, accelerating the CPUSA's collapse.
+would only drive away professionals like him. 
+Such internal purges also deepened suspicion and fear within the Party and sped up its decline.
 
-Based on declassified files, I hereby propose that, although not entirely certain, Morris is the prime suspect. 
+Although there is no sufficient information to determine whether Morris sent the ultimatum, it is highly likely that he played a role in accelerating the situation. 
 Upon his recruitment, Morris Childs immediately identified Dr. Pearlman as a security risk @FBI2016[orig. 1952, vol 1, p. 25].
 
 #quote(
@@ -396,10 +400,9 @@ Upon his recruitment, Morris Childs immediately identified Dr. Pearlman as a sec
   the informant can lay a proper foundation with PEARLMAN to bring in a new non-Party heart specialist. 
 ]
 
-Morris systematically milked Pearlman for information. 
-Pearlman confided in Morris about his fears of the FBI, 
+Pearlman expressed his fears of the FBI to Morris, 
 stating in August 1953 that he was "prepared to refuse to talk to the Bureau" and would "get rid of the FBI in a hurry," 
-which was immediately reported to FBI by Morris @FBI2016[orig, 1953, vol 4, p. 109].
+which was immediately reported to FBI @FBI2016[orig, 1953, vol 4, p. 109].
 
 #quote(
   block: true,
@@ -414,21 +417,16 @@ which was immediately reported to FBI by Morris @FBI2016[orig, 1953, vol 4, p. 1
   and told the informant about their reactions to the Bureau's approaches.
 ]
 
-Dr. Pearlman viewed him as a trustworthy "old comrade," confiding in him about private matters about his family 
-(who were also underground CPUSA members), which was also reported to the FBI, 
-turning the warmth privite friendship into evidence against him.
+Dr. Pearlman treated Morris as a trustworthy "old comrade" and told him about private matters involving his family 
+(who were also underground CPUSA members). Morris passed this information to the FBI again.
 
 When Pearlman expressed frustration about the difficulties of his professional workload, 
-Morris advised him to start charging fees to his African American ("Negro") patients. 
+Morris advised him to start charging fees to his African American patients. 
 Morris said that according to CPUSA regulations, Party doctors could charge normal fees to comrades or treat them for free. 
-If free, the patient should donate the medical fee to the CPUSA. 
-Morris told Dr. Pearlman that these African American Party members did not hand the money to the Party, 
+If they were treated for free, the patient should donate the medical fee to the CPUSA. 
+Morris told Dr. Pearlman that these African American members did not hand the money to the Party, 
 so he should ask them for money when treating them in the future. 
-Morris then reported to the FBI that doctor was currently dissatisfied with the Party and might be turned @FBI2016[orig, 1953, vol 5, p. 151]. 
-This advice was pernicious on multiple levels. 
-First, it encouraged Pearlman to violate the socialist ethic of providing care to the indigent. 
-Second, it introduced a wedge of racial resentment, framing black patients as freeloaders exploiting the doctor. 
-Third, it was designed to make Pearlman question the Party's organizational integrity and financial fairness.
+Morris then reported to the FBI that the doctor was dissatisfied with the Party and might be turned @FBI2016[orig, 1953, vol 5, p. 151]. 
 
 #quote(
   block: true,
@@ -451,6 +449,11 @@ Third, it was designed to make Pearlman question the Party's organizational inte
   permit the doctors to accept fees from clients referred to them by the Party and/or to give gratis treatment 
   to comrades provided they agree to turn over the stipulated service charge to the Party.
 ]
+
+This suggestion subtly undermines Pearlman's belief in several ways.
+It runs counter to the socialist ethical principle of providing medical aid to the poor.
+It depicted Black patients as opportunists, thereby promoting racial stereotypes.
+Furthermore, it is intended to put doubt in his mind regarding the integrity and financial probity of the organisation of CPUSA. Additionally, in the early 1950s, there was an anti-white-chauvinism campaign within the CPUSA @Jacobs1981Racism@Mouledous1964Browderism. If Pearlman actually followed Childs's advice and charged African American comrades, it would spark a significant dispute, making him a primary target for the anti-white-chauvinism campaign.
 
 On December 16, Morris spoke with Dr. Pearlman, attempting to guide him to break with the Party @FBI2016[orig, 1953, vol 5, p. 169];
  on December 26, Morris spoke with Dr. Pearlman again, attempting to guide him to question the Party's ideology @FBI2016[orig, 1953, vol 5, p. 173].
@@ -475,46 +478,29 @@ On December 16, Morris spoke with Dr. Pearlman, attempting to guide him to break
   to begin to question the Party ideology in order that an interview by the Bureau might be set up.
 ]
 
-Following this, the trail in the files goes cold. 
-The currently released Morris files end at Volume 5 on March 29, 1954, and then skip directly to Volume 20 in 1958 @FBI2016[orig, 1952-1962].
-Dr. Pearlman did never appear in the FBI files again. 
-However, the aformentioned FBI file on "Communist Influence in Racial Matters" tell us the ending of this story. 
-In June 1954, Dr. Pearlman received an "ultimatum" from the CPUSA: 
-he must "get back in the open as a Communist member" or face expulsion. 
-By October 1955, Pearlman was no longer a Party member. 
-Given Morris's restored influence in the Party by 1954, 
-it is a reasonable hypothesise that Morris played a crucial role behind this ultimatum. 
-Because Dr. Pearlman knew too much about Morris: the suspicious points of Morris's treatment at Mayo, 
-Morris offering him racially discriminatory advice inconsistent with Party aims,
-and Morris guiding him to question Party ideology during conversations, followed by the FBI attempting to turn him.
-However, this is only a hypothesis, and the exact details of the relationship between Morris and Dr. Pearlman remain unclear.
+After this, the declassified files end. 
+The currently released Morris files stop at Volume 5 on March 29, 1954, and then skip directly to Volume 20 in 1958 @FBI2016[orig, 1952-1962].
+Dr. Pearlman never appeared in the FBI files again. 
+However, the aforementioned FBI file on "Communist Influence in Racial Matters" tells us the ending of this story. 
+Barron's _Operation SOLO_ also makes no mention of Dr. Pearlman, probably due to that its stance is to praise the operation. 
+Omitting Dr. Pearlman may therefore have been a way to protect Morris's moral image.
 
-Additionally, the book _Operation SOLO_ makes absolutely no mention of Dr. Pearlman, 
-which could also be evidence that he rejected the FBI. This book was completed by Barron in cooperation with the FBI. 
-Its fundamental stance is to praise the operation, and it contains confirmed deliberate beautification 
-in some aspects (such as Morris's relationship with the FBI). 
-Therefore, omitting Dr. Pearlman might be to maintain Morris's moral image. 
-This "edited silence" proves that Dr. Pearlman was a stain for Morris's story, 
-thus collaterally verifying that Morris likely owed him or harmed him.
-
-The tragedy of the Pearlman family highlights the profound divergence between the cynicism of the FBI asset 
-and the idealism of the rank-and-file. 
-The FBI's surveillance of Michael Pearlman in 1965 suggests that the Bureau 
+The FBI's monitoring of Michael Pearlman in 1965 suggests that the Bureau 
 continued to monitor the family long after Solomon had been purged from the Party. 
-This surveillance was likely driven by the fear that the Pearlman family might still possess dangerous knowledge about Morris Childs, 
+This monitoring was likely driven by the fear that the Pearlman family might still possess dangerous knowledge about Morris Childs, 
 or simply by the Bureau's obsessive monitoring of anyone with a communist background involved in civil rights.
 
 = Conclusion <conclusion>
 
 This article re-evaluates the traditional narrative regarding Morris Childs and Operation SOLO 
-through a close reading of historical documents, primarily presenting four rebuttals. 
-*1)* The relationship between Morris and the FBI was not as good as officially depicted, 
-*2)* Morris's narrative regarding his leaving the Party was inaccurate, 
-*3)* The CPUSA did not abandon Morris during his illness, and, 
-*4)* He tried to undermine the relationship between a doctor member and African American members of CPUSA, 
-as well as he helped the FBI monitor the doctor, his wife, his wife's family (the Feldmans), 
-and his son Michael, even if the doctor saved his life. 
-These analyses allow us to see that when Morris Childs is stripped of the halos of "Cold War Hero" 
-and "FBI Super Ace" and returned to the dimension of a concrete "human," his actions are chilling on a moral level.
+through a close reading of historical documents, presenting four main rebuttals: 
+- the relationship between Morris and the FBI was far less harmonical than officially depicted; 
+- Morris's account of how he left the Party was inaccurate; 
+- the CPUSA did not abandon Morris during his illness; and 
+- Morris tried to undermine a Party doctor's relationship with his African American patients 
+and helped the FBI monitor the doctor, his family, and his extended family (the Feldmans), 
+even though the doctor had saved his life. 
+
+Therefore, the popular narrative of Morris Childs as a disillusioned idealist who was abandoned by the CPUSA and heroically rescued by the FBI is not supported by the historical record. Instead, the evidence suggests that Morris's actions were driven by self-interest and opportunism, and his actions were chilling on a personal moral level. 
 
 #bibliography("references.bib", style: "apa")
