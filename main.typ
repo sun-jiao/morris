@@ -321,40 +321,36 @@ which is almost entirely absent from the official histories @Barron1997.
 While Barron's narrative focuses on the Childs brothers' heroism, 
 the FBI files document the systematic manipulation and destruction of the physician who saved Morris's life. 
 
-// In searching for his identity, I noticed an article on geriatric diseases published in _The University of Chicago Magazine_ 
-// by a doctor named Solomon L. Pearlman @Pearlman1953, 
-// discussing treatments for heart disease, blood diseases, and stomach ailments in the elderly. 
-// Dr. Solomon L. Pearlman was a respected internist in Chicago, a graduate of the University of Chicago (1932), 
-// and a staff physician at Michael Reese Hospital, one of the city's premier medical institutions. 
-// @Mack1954[p:] also mentioned the work of _this_ Dr. Pearlman and 
-// explicitly referred to him as a "specialist in internal medicine." 
-// This indicates that _this_ Dr. Pearlman was an expert in heart disease treatment, 
-// which is consistent with the CPUSA Dr. Pearlman, who treated Morris's heart condition. 
-// The article was published in 1953, when the CPUSA Dr. Pearlman was also active in Chicago. 
-// As a physician at Michael Reese Hospital, 
-// a large research and teaching hospital and the oldest and largest in Chicago, 
-// his social status is also consistent with CPUSA Dr. Pearlman, who had a clinic at 30 North Michigan Avenue.
-
+An article published by himself discussing treatments for heart disease, blood diseases, and stomach ailments in the elderly 
+indicates that he was a respected internist in Chicago, a graduate of the University of Chicago (1932), 
+and a staff physician at Michael Reese Hospital, one of the city's premier medical institutions @Pearlman1953. 
+@Mack1954[p:] also mentioned his work and 
+explicitly referred to him as a "specialist in internal medicine" and a teaching staff of Chicago Medical College.  
+This indicates that Dr. Pearlman was an expert in heart disease treatment, 
+which aligns with the fact 
+that he had a clinic at 30 North Michigan Avenue (Michigan Boulevard Building) and a clinic at the south side of Chicago,
+as well as that he treated Morris's myocardial infarction in 1950.
 // More decisive evidence comes from 
-A document newly declassified by the FBI in 2024, _Communist Influence In Racial Matters_, 
-records the FBI's monitoring of their child, Michael D. Pearlman, in 1965. 
-It mentions the "Jackson Police Department", clearly referring to the Freedom Riders Movement, 
-which Michael D. Pearlman likely participated in. @FBI2024[orig 1965] 
+// Additionally, a document newly declassified by the FBI in 2024, _Communist Influence In Racial Matters_, 
+// records the FBI's continuous monitoring of his family @FBI2024[orig 1965] 
 // This document confirms that the wife of the CPUSA Dr. Pearlman was named Margaret, 
 // the same as the Dr. Pearlman from the University of Chicago.
+
+// Based on the identical names, identical partner names, both living in Chicago in 1953-1954, 
+// both specializing in internal medicine with experience in heart disease, and similar social status, 
+// we can infer with high confidence that they are the same person. 
+// Based on the aforementioned information, he was likely one of the best doctors serving the CPUSA in Chicago at the time.
+
+// Having a clinic at 30 North Michigan Avenue (Michigan Boulevard Building) indicating that Dr. Pearlman was a respected physician in Chicago. 
+However, such an important Party member received an "ultimatum" from the CPUSA at the early to mid-1954, 
+demanding he reveal his Party membership @FBI2024[orig 1965]. Under the high pressure of McCarthyism, 
+"publicly revealing Communist Party membership" was equivalent to placing one's career, 
+social status, and even personal safety at vast risk. 
+Consequently, Dr. Pearlman rejected the CPUSA's demand and left the Party in 1955.
 
 #quote(
   block: true,
 )[
-  PEARLMAN, MICHAEL D.
-
-  The following descpiptive data was obtained from the Jackson Police Department:
-  - Race: While 
-  - Sex: Male
-  - Date: of Birth: ■■■■
-  - Residence: ■■■■, Chicago, Illinois
-  - Parents: SOLOMON and MARGARET PEARLMAN
-
   JN T-24 advised on February 5, 1954, that Dr. SOLOMON PEARLMAN was of that date a Communist Party doctor. 
   Informant advised on February 11, 1954, that although he could not state of his own knowledge that 
   Dr. SOLOMON PEARLMAN was of that date a member of the Communist Party, it was his, the informant's opinion,
@@ -365,22 +361,7 @@ which Michael D. Pearlman likely participated in. @FBI2024[orig 1965]
   an ultimatum not only to get back into the Communist Party, but to get back in the open as a Communist member. 
   This informant advised on October 7, 1955, that it was his opinion that as of that date, 
   SOLOMON PEARLMAN was not a current member of the Communist Party.
- 
-  On June 5, 1952, informant advised he was not sure whether or not MARGARET PEARLMAN was in the Communist Party, 
-  but related that she is undoubtedly influenced by the activities of her husband.
 ]
-
-// Based on the identical names, identical partner names, both living in Chicago in 1953-1954, 
-// both specializing in internal medicine with experience in heart disease, and similar social status, 
-// we can infer with high confidence that they are the same person. 
-// Based on the aforementioned information, he was likely one of the best doctors serving the CPUSA in Chicago at the time.
-
-Having a clinic at 30 North Michigan Avenue (Michigan Boulevard Building) indicating that Dr. Pearlman was a respected physician in Chicago. 
-However, such an important Party member received an "ultimatum" from the CPUSA at the end of 1954, 
-demanding he reveal his Party membership. Under the high pressure of McCarthyism, 
-"publicly revealing Communist Party membership" was equivalent to placing one's career, 
-social status, and even personal safety at vast risk. 
-Consequently, Dr. Pearlman rejected the CPUSA's demand and left the Party in 1955.
 
 Intellectuals like Dr. Pearlman, who possessed professional status and social prestige, 
 were critical members for the CPUSA in society. 
@@ -481,24 +462,24 @@ On December 16, Morris spoke with Dr. Pearlman, attempting to guide him to break
 After this, the declassified files end. 
 The currently released Morris files stop at Volume 5 on March 29, 1954, and then skip directly to Volume 20 in 1958 @FBI2016[orig, 1952-1962].
 Dr. Pearlman never appeared in the FBI files again. 
-However, the aforementioned FBI file on "Communist Influence in Racial Matters" tells us the ending of this story. 
-Barron's _Operation SOLO_ also makes no mention of Dr. Pearlman, probably due to that its stance is to praise the operation. 
+However, the aforementioned FBI file tells us the ending of this story. 
+Barron's _Operation SOLO_ also makes no mention of Dr. Pearlman, probably because its stance is to praise the operation. 
 Omitting Dr. Pearlman may therefore have been a way to protect Morris's moral image.
 
-The FBI's monitoring of Michael Pearlman in 1965 suggests that the Bureau 
-continued to monitor the family long after Solomon had been purged from the Party. 
-This monitoring was likely driven by the fear that the Pearlman family might still possess dangerous knowledge about Morris Childs, 
-or simply by the Bureau's obsessive monitoring of anyone with a communist background involved in civil rights.
+// The FBI's monitoring of Michael Pearlman in 1965 suggests that the Bureau 
+// continued to monitor the family long after Solomon had been purged from the Party. 
+// This monitoring was likely driven by the fear that the Pearlman family might still possess dangerous knowledge about Morris Childs, 
+// or simply by the Bureau's obsessive monitoring of anyone with a communist background involved in civil rights.
 
 = Conclusion <conclusion>
 
 This article re-evaluates the traditional narrative regarding Morris Childs and Operation SOLO 
 through a close reading of historical documents, presenting four main rebuttals: 
-- the relationship between Morris and the FBI was far less harmonical than officially depicted; 
+- the relationship between Morris and the FBI was far less peaceful than officially depicted; 
 - Morris's account of how he left the Party was inaccurate; 
 - the CPUSA did not abandon Morris during his illness; and 
 - Morris tried to undermine a Party doctor's relationship with his African American patients 
-and helped the FBI monitor the doctor, his family, and his extended family (the Feldmans), 
+and helped the FBI monitor the doctor and his relatives, 
 even though the doctor had saved his life. 
 
 Therefore, the popular narrative of Morris Childs as a disillusioned idealist who was abandoned by the CPUSA and heroically rescued by the FBI is not supported by the historical record. Instead, the evidence suggests that Morris's actions were driven by self-interest and opportunism, and his actions were chilling on a personal moral level. 
